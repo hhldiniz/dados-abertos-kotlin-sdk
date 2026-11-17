@@ -19,7 +19,7 @@
     </dependencies>
 
     <properties>
-        <kotlin.version>1.5.0</kotlin.version>
+        <kotlin.version>2.1.21</kotlin.version>
         <retrofit.version>2.9.0</retrofit.version>
     </properties>
 
@@ -29,7 +29,7 @@
             <plugin>
                 <groupId>org.jetbrains.kotlin</groupId>
                 <artifactId>kotlin-maven-plugin</artifactId>
-                <version>1.5.0</version>
+                <version>${kotlin.version}</version>
                 <executions>
                     <execution>
                         <id>compile</id>
